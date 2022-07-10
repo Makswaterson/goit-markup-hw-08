@@ -7,16 +7,21 @@
 
 @import './components/container';
 @import './components/logo';
-@import './components/footerform';
-@import './components/modalform';
+@import './components/text';
+@import './components/title';
+@import './components/form';
 @import './components/backdrop';
+@import './components/modalform';
+@import './components/cardlist';
+@import './components/social';
 
 @import './layout/header';
 @import './layout/hero';
-@import './layout/feature';
+@import './layout/properties';
 @import './layout/work';
 @import './layout/team';
 @import './layout/clients';
 @import './layout/footer';
 @import './layout/portfolio';
+@import './layout/filter';
 @import './layout/projects';
