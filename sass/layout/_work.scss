@@ -1,6 +1,9 @@
 .work {
   /* padding-top: 45px; */
   padding-bottom: 94px;
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
 }
 .work-title {
   font-weight: 700;
@@ -13,13 +16,12 @@
 }
 .work-list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .work-item {
   max-width: 370px;
   flex-basis: calc(100% / 3 - 30px);
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
 }
 
 .work-lay {
